@@ -63,3 +63,12 @@ The `server.js` file sets up the WebSocket server, handles player connections, a
    ```bash
    ./client/html/index.html
    
+## Gameplay Overview
+### -Player Assignment: The server automatically assigns players as Player A or Player B.
+### -Turns: Players take turns to move their pieces. Only the player whose turn it is can move their pieces.
+### -Invalid Moves: The game alerts players if they attempt invalid moves (e.g., moving the opponent’s pieces or moving out of turn).
+### -Victory Condition: The game ends when one player captures all of the opponent’s key pieces or fulfills the victory criteria.
+
+## MadeBy:-
+### Aditya Jain
+### 21BCY10190
