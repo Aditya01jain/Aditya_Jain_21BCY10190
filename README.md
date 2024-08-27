@@ -7,9 +7,9 @@ This project is a chess-like game designed for two players using WebSockets for 
 ## Project Structure
 
 The project is organized into the following main directories:
-
-/project-root |-- /client | |-- /styles | | |-- styles.css | |-- /scripts | | |-- game.js | | |-- websocket.js | |-- index.html |-- /server | |-- server.js |-- README.md |-- rules.txt
-
+   ```   
+   project-root |-- /client | |-- /styles | | |-- styles.css | |-- /scripts | | |-- game.js | | |-- websocket.js | |-- index.html |-- /server | |-- server.js |-- README.md |-- rules.txt
+```
 
 ## Client-Side
 
@@ -40,8 +40,8 @@ The `server.js` file sets up the WebSocket server, handles player connections, a
 1. **Clone the Repository**
 
    ```bash
-   git clone <repository-url>
-   cd <repository-folder>
+   git clone https://github.com/Aditya01jain/Aditya_Jain_21BCY10190
+   cd Aditya_Jain_21BCY10190
    
 2. **Install Dependencies**
     Navigate to the server directory and install the necessary Node.js packages:
