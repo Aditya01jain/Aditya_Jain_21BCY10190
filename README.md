@@ -4,9 +4,8 @@
 
 This project is a chess-like game designed for two players using WebSockets for real-time interaction. The game board and rules are simplified compared to traditional chess, featuring custom piece movements and turn-based play. The client and server communicate using WebSockets to synchronize game state and handle player actions.
 ### Sample Video
-```
-https://youtu.be/0Un1U908ZWg
-```
+[Link Text](https://youtu.be/0Un1U908ZWg)
+
 ## Features
 - Real-time Multiplayer: Connects players and updates the game state in real-time using WebSockets.
 - Turn-based Gameplay: Players take turns to move their pieces.
