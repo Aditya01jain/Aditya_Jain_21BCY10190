@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chess-Like Game - WebSocket</title>
+    <script src="http://localhost:3000/socket.io/socket.io.js"></script> <!-- Socket.io client library -->
+    <link rel="stylesheet" href="../CSS/styles.css">
+
+</head>
+
+<body>
+    <nav id="navbar">
+        <ul>
+            <li><a href="#">Rules</a></li>
+        </ul>
+    </nav>
+
+    <h1>Chess-Like Game</h1>
+    <div id="Player_name"></div>
+    <div id="current-turn">Current Turn: Waiting...</div>
+    <div id="board-container">
+        <div id="board"></div>
+    </div>
+    <div id="moves"></div>
+    <div id="status"></div>
+    <div id="status"></div>
+    <div id="rulesModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Game Rules</h2>
+            <p>1. Each player controls pieces labeled 'A' or 'B'.</p>
+            <p>2. The objective is to move your pieces strategically to capture the opponent's pieces or reach the end
+                of the board.</p>
+            <p>3. 'P' pieces move left, right, up, or down.</p>
+            <p>4. 'H1' and 'H2' pieces can move in more complex patterns like diagonals or forward jumps.</p>
+            <p>5. The game ends when one player captures all of the opponent's key pieces or meets the winning criteria.
+            </p>
+        </div>
+    </div>
+
+
+</body>
+<script src="../JS/script.js"></script>
+
+</html>
