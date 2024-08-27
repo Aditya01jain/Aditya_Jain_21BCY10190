@@ -1,4 +1,4 @@
-Game Project: Multiplayer Turn-Based Strategy Game
+<h1>Game Project: Multiplayer Turn-Based Strategy Game<h1>
 Table of Contents
 Project Overview
 Features
