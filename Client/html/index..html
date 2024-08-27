@@ -18,6 +18,7 @@
     </nav>
 
     <h1>Chess-Like Game</h1>
+    <div id="toast" class="toast">It's not your turn!</div>
     <div id="Player_name"></div>
     <div id="current-turn">Current Turn: Waiting...</div>
     <div id="board-container">
@@ -30,15 +31,16 @@
         <div class="modal-content">
             <span class="close">&times;</span>
             <h2>Game Rules</h2>
-            <p>1. Each player controls pieces labeled 'A' or 'B'.</p>
-            <p>2. The objective is to move your pieces strategically to capture the opponent's pieces or reach the end
-                of the board.</p>
-            <p>3. 'P' pieces move left, right, up, or down.</p>
-            <p>4. 'H1' and 'H2' pieces can move in more complex patterns like diagonals or forward jumps.</p>
-            <p>5. The game ends when one player captures all of the opponent's key pieces or meets the winning criteria.
-            </p>
+            <ol>
+                <li>Each player controls pieces labeled 'A' or 'B'.</li>
+                <li>The objective is to move your pieces strategically to capture the opponent's pieces or reach the end of the board.</li>
+                <li>'P' pieces can move left, right, up, or down by one step.</li>
+                <li>'H1' pieces can move two steps left, right, up, or down.</li>
+                <li>'H2' pieces can move diagonally by two steps in any of the four diagonal directions.</li>
+                <li>The game ends when one player captures all of the opponent's key pieces or meets the winning criteria.</li>
+            </ol>
         </div>
-    </div>
+    </div>    
 
 
 </body>

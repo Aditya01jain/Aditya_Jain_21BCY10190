@@ -15,6 +15,28 @@ h1 {
     color: #007bff;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
+.toast {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+    font-size: 17px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out, visibility 0.5s;
+}
+
+.toast.show {
+    visibility: visible;
+    opacity: 1;
+}
 
 #current-turn {
     font-size: 20px;
